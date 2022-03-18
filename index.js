@@ -23,6 +23,7 @@ function setup() {
   new Body(3, 22, mars, loadImage("phobosbump.jpg"));
   new Body(2, 30, mars, loadImage("deimosbump.jpg"));
   jupiter = new Body(14 , 330 , sun , loadImage("jupitermap.jpg"));
+  universe = new Body(1000, 0, sun , loadImage("stars_feature.png"),color(255));
 
 }
 
